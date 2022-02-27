@@ -8,10 +8,10 @@ var ctrnn = new CTRNN();
 // Pass in your CTRNN configuration.
 ctrnn.setConfiguration(config);
 
-// Initialise network with new  .
+// Initialise network.
 ctrnn.initialise(deltaTime);
 
-// Feed input into network. Each element of the array is fed into all CTRNN Input Neurons.
+// Feed input into network.
 // Length of array must match the number of CTRNN inputs.
 ctrnn.feedInputs(inputArray);
 
