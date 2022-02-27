@@ -1,7 +1,9 @@
 {
     "name": "@plectomusic/ctrnn",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "license": "MIT",
+    "homepage": "https://www.plectomusic.com/",
+    "keywords": ["ctrnn"],
     "repository": {
         "type": "git",
         "url": "https://github.com/steffanianigro/plectomusic-ctrnn.git"
