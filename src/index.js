@@ -142,7 +142,7 @@ export default class CTRNN {
 
     /**
         * Changes CTRNN timestep.
-        * @param {boolean} timeStep, new timeStep to use.
+        * @param {number} timeStep, new timeStep to use.
     */
     changeTimestep(timeStep) {
         this.inputNodes.forEach((inputNode) => {
